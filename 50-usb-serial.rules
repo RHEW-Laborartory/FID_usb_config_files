@@ -1,0 +1,7 @@
+# 
+# idVendor and idProduct are unique to the chip used (e.g. Chip:FT232 idVendor:0403 idProduct:6001)
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A900f76H", SYMLINK+="valcoVici6Port", MODE+="0666"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="FTYZM33G", SYMLINK+="omegaWaterTrap", MODE+="0666"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="FT91NTBS", SYMLINK+="omegaSampleTrap", MODE+="0666"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{manufacturer}=="Voegtlin Instruments", ATTRS{product}=="PDM-U Modul", SYMLINK+="redyFlowMeter", MODE+="0666"
+
