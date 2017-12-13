@@ -1,4 +1,4 @@
-# FID Instrument Config Files
+# FID USB Config Files
 
 ## 50-usb-serial.rules
 This file, properly configured, allows USB devices to be referred to by a given name (aka `SYMLINK`). This is done through the creation of a rule. Rules typically contain attributes unique to a device, which allows it to be easily identified by the operating system.
